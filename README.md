@@ -1,6 +1,3 @@
-# hello-word
-Initial_program
+# LINACS Window’s User Installation Guide
 
-This a test to learn how to make a commit changed.
-The test is focus to show that the branch copy will be modified.
-However, the original one not.
+This is a guide for installation and execution of the LINACS code in a Window’s environment.    
