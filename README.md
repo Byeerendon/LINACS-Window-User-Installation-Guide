@@ -42,22 +42,31 @@ For the installation of Kivy, please check this website (https://kivy.org/).
 
 1)	Copy the two directories (LINACSsrfSIM and LINACsrfSIMrun) in the desired place of your computer.
 2)	Open Absoft Tools and create a new project. Under this new project set the path of folder LINACSsrfSIM. We recommend using the preferences that appear in Fig.1.
-
-   ![Fig1](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/ea387f27-e84b-444a-8bf6-aff0f54a2218)
-      
-                                        Figure 1. Absoft Tools preference settings.             
+<p align="center">
+       <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/ea387f27-e84b-444a-8bf6-aff0f54a2218" width= "500">
+</p>         
+<p align="center">
+ <em> Figure 1. Absoft Tools preference settings.  </em>
+</p>   
+                                                  
 3)	Go to the LINACsrfSIMrun folder, open linacgui.py, and update the path according to the location of your folders (LINACSsrfSIM and LINACsrfSIMrun), as shown in Fig. 2.
-
-  ![Fig2](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/c9703cb7-1f33-4afa-8d35-27230f034793)
-
-                                           Figure 2. linacguis.py script.
+<p align="center">
+  <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/c9703cb7-1f33-4afa-8d35-27230f034793" width= "800">
+</p>         
+<p align="center">
+ <em> Figure 2. linacguis.py script. </em>
+</p>  
 
 4)	In the LINACsrfSIMrun folder, open linacgui.kv and update the path according to your files.
 5)	In LINACsrfSIMrun folder, open LINACSGUIsupport.bat. This is an executable used for the compilation of the subroutines. Here you must update the path according to the location of your folders, kivy, and Absoft Tools program, see Fig.3.
 
-![Fig3](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/82f896d8-1690-4f8f-b97f-8d8d1625411f)
- 
-                                        Figure 3. LINACSGUIsupport.bat script.
+<p align="center">
+  <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/82f896d8-1690-4f8f-b97f-8d8d1625411f" width= "800">
+</p>         
+<p align="center">
+ <em>  Figure 3. LINACSGUIsupport.bat script.</em>
+</p>  
+                                       
 
 6)	In the LINACsrfSIMrun folder, open LINACSsimGraphics and update the paths according to your files.
 
@@ -70,34 +79,57 @@ For the installation of Kivy, please check this website (https://kivy.org/).
 3)	Modify and save the input parameters according to your design.
 4)	Open Pycharm and run linacgui.py (Fig. 4).
 
- ![Fig4](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/b2c5fc51-db6f-4294-86e0-1d30184444b4)
+<p align="center">
+  <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/b2c5fc51-db6f-4294-86e0-1d30184444b4" width= "600">
+</p>         
+<p align="center">
+ <em>   Figure 4. Execute the linacgui script in Pycharm.</em>
+</p>  
 
-                                    Figure 4. Execute the linacgui script in Pycharm.
+
+                                   
 
 5)	A GUI command will appear, select RFQ, and modify the inputs according to your design, as shown in Fig. 5. Detailed information can be found in The LINACS Codes Release.
 
- ![Fig5](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/c6d66724-f837-4b3c-ab95-ef8f7a7245f2)
-
-                                     Figure 5. GUI control of LINACS
+<p align="center">
+  <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/c6d66724-f837-4b3c-ab95-ef8f7a7245f2" width= "600">
+</p>         
+<p align="center">
+ <em>     Figure 5. GUI control of LINACS.</em>
+</p> 
+                                  
 
 6)	Click run RFQ Vane Design, to generate the RFQ design. See Fig. 6. 
 
- ![Fig6](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/3e99ff6f-ebc1-489c-ad20-9a3ce2e35fb5)
-
-                                     Figure 6. Output run of the RFQ Vane design.
+<p align="center">
+  <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/3e99ff6f-ebc1-489c-ad20-9a3ce2e35fb5" width= "800">
+</p>         
+<p align="center">
+ <em> Figure 6. Output run of the RFQ Vane design.</em>
+</p>                                     
 
 7)	To run multiparticle tracking, click the buttons of simul and graphic on the right upper part of the GUI. The input beam parameters and the number of macroparticles are defined in the tapeinput.txt. Information on the particles transmitted (NGOOD) and particles inside the bucket (NALYZ) is provided cell by cell. In addition, extra information is printed on a certain given number of cells, see Fig. 7.
-   
- ![Fig7](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/3129d8cc-0390-4829-a91c-5d709c2c7bb0)
 
-                                      Figure 7. Information about the run
+<p align="center">
+  <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/3129d8cc-0390-4829-a91c-5d709c2c7bb0" width= "800">
+</p>         
+<p align="center">
+ <em>  Figure 7. Information about the run.</em>
+</p> 
+   
+
+                                     
 
 8)	The output files are saved in the LINACsrfSIMrun folder. Please see LINACSrfSIM Runs,Files.docx for more information. 
 9)	At the end of the simulation, a summary of the design and a plot of the most relevant figures are produced. See Fig.8.
-    
-![Fig8](https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/b8cbdba6-64ff-4708-8f47-8cf69bb16b8e)
- 
-                                  Figure 8. Summary graphics and the result of LINACS simulation.
+
+ <p align="center">
+  <img src="https://github.com/Byeerendon/LINACS-Window-s-User-Installation-Guide/assets/65529667/b8cbdba6-64ff-4708-8f47-8cf69bb16b8e" width= "800">
+</p>         
+<p align="center">
+ <em>  Figure 8. Summary graphics and the result of LINACS simulation.</em>
+</p> 
+                                 
 
 # 4.)	Contact
 
