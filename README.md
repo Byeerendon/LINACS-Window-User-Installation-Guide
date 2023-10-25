@@ -5,7 +5,7 @@ This is a guide for the installation and execution of the LINACS code in a Windo
 
 = = = = = = = = = = = = = = = = = = = == = = = = == = = = = = = = = = = = = = = = = =
 
-1.)	Programs
+# 1.)	Programs
 
 1.1)	Required:
  
@@ -32,7 +32,7 @@ An integrated development environment used for programming in Python in Windows.
 
 = = = = = = = = = = = = = = = = = = = == = = = = == = = = = = = = = = = = = = = = = = 
 
-2.)	Installation
+# 2.)	Installation
 
 The user is assumed to have downloaded and installed the auxiliary programs (Absoft Tools, Python, PyCharm, and Kivy).
 
@@ -62,7 +62,7 @@ Figure 3. LINACSGUIsupport.bat script.
 
 = = = = = = = = = = = = = = = = = = = == = = = = == = = = = = = = = = = = = = = = = = 
 
-3.)	Run
+# 3.)	Run
 
 1)	In the LINACsrfSIMrun folder, open the tapeinput.txt file.  This file provides all the inputs necessary to run the program. 
 2)	A detailed explanation of the inputs is given in LINACSrfqSim_Card_instructions.txt and an example is provided in the book Elements of Ion Linear Accelerators + Calm in the Resonances and Other Tales, R.A. Jameson, and The LINACS Codes Release, both on ResearchGate. 
@@ -90,13 +90,13 @@ Figure 7. Information about the run
 Figure 8. Summary graphics and the result of LINACS simulation.
 = = = = = = = = = = = = = = = = = = = == = = = = == = = = = = = = = = = = = = = = = = 
 
-4.)	Contact
+# 4.)	Contact
 
 Please do not hesitate to contact us if you require further assistance or encounter any bugs. Bruce Yee-Rendon (email: byee@post.j-parc.jp)
 
 = = = = = = = = = = = = = = = = = = = == = = = = == = = = = = = = = = = = = = = = = = 
 
-5.)	References
+# 5.)	References
 
 •	R. A. Jameson et al “The LINACS Codes Release”, online download  
 https://ln5.sync.com/dl/01ce57220/v23cfj82-gsx74hws-runykxcf-btqmfe2a
