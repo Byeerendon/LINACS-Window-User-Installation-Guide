@@ -10,17 +10,26 @@ This is a guide for the installation and execution of the LINACS code in a Windo
 •	LINACS codes
 Contains all the subroutines for the design and multiparticle tracking.
 There are several folders: 
+
 o	LINACSsrfSIM contains all the subroutines.
+
 o	LINACsrfSIMrun has all the scripts to run the program and analyze the outputs.
+
 o	References contain detailed information about the input scripts and related publications.
+
 o	Hlists has files to generate the Hofmann chart.
 
 •	Absoft Tools program
+
 It is a set of Fortran compilers for Microsoft Windows. It compiles the subroutines on LINACS to create the executable for running the program.
 A license was required, but Absoft has now gone out of business. An alternative free-source compiler option may become available.
+
 •	Python
+
 LINACS GUI and Graphics tools run in a Python environment.
+
 •	Kivy
+
 An open-source software library for the rapid development of applications equipped with novel user interfaces, such as multi-touch apps
 
 1.2)	Recommended:
